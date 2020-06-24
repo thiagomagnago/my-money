@@ -1,0 +1,11 @@
+// Usar o comando abaixo para logar a conta Firebase no Windows
+firebase login --interactive
+
+// Comando para deploy das funções do Firebase
+firebase deploy --only functions
+
+// Faz o deploy da aplicação
+firebase deploy --only hosting
+
+// URL da aplicação
+https://mymoney-tms.web.app
